@@ -1,0 +1,153 @@
+html,body{
+	margin:0;
+	padding:0;
+	width:100%;
+	overflow-x:hidden;
+}
+.header{
+	width:100%;
+}
+
+.headi{
+	position:absolute;
+	top:0;
+	display:flex;
+	justify-content:space-around;
+	width:100%;
+	background:rgba(0,0,0, .5);
+	padding:22px;
+	text-align:center;
+}
+.head-item{
+	font-size:30px;
+	color:white;
+	font-family: 'Dancing Script', cursive;
+	text-align:center;
+	transition:0.5s all;
+}
+.head-item:hover{
+	font-size:35px;
+	border:3px solid white;
+	cursor:pointer;
+}
+.name{
+	top:25%;
+	width:100%;
+	position:absolute;
+	text-align:center;
+}
+.myname{
+	font-size:120px;
+	font-family: 'Dancing Script', cursive;
+	background:rgba(0,0,0, .3);
+	width:60%;
+	margin:auto;
+	padding:10px;
+	border-radius:30px;
+	color:white;
+	transition:0.5s all;
+}
+.myname:hover{
+	font-size:125px;
+	border:3px solid white;
+	cursor:pointer;
+}
+.see{
+	padding:20px 25px;
+	font-size:35px;
+	font-family: 'Dancing Script', cursive;
+	border:3px solid white;
+	transition:1s all;
+}
+.see:hover{
+	background:#C56068;
+	font-size:40px;
+	cursor:pointer;
+}
+.main{
+	background:#949A98;
+	width:100%;
+	text-align:center;
+	border-bottom:3px solid white;;
+}
+.abme{
+	margin:0;
+	font-size:50px;
+	font-family: 'Dancing Script', cursive;
+	padding:30px;
+}
+.mm{
+	display:flex;
+	justify-content:center;
+}
+.mmi{
+	width:400px;
+	font-size:20px;
+	font-family: 'Dancing Script', cursive;
+	margin:10px;
+	border-bottom:3px solid;
+}
+.mmi:hover{
+	background:white;
+	border-radius:40px;
+	transition:1s all;
+}
+
+.main1{
+	background:#3C4A4E;
+	width:100%;
+	text-align:center;
+	border-bottom:3px solid white;;
+}
+.abme2{
+	margin:0;
+	font-size:50px;
+	font-family: 'Dancing Script', cursive;
+	padding:30px;
+	color:white;
+}
+.mmii{
+	width:300px;
+	font-size:20px;
+	font-family: 'Dancing Script', cursive;
+	margin:10px;
+	border:3px solid;
+	border-radius:50%;
+	background:white;
+	padding:20px 30px;
+}
+i{
+	font-size:50px;
+}
+input{
+	border:0;
+	border-radius:30px;
+	padding:18px;
+	margin:10px;
+	width:60%;
+}
+button{
+	padding:15px 20px;
+	font-size:35px;
+	margin:20px;
+	border:0;
+	border-radius:30px;
+	font-family: 'Dancing Script', cursive;
+	
+}
+@media (max-width:1000px){
+	.mm{
+	display:block;
+	justify-content:center;
+	text-align:center;
+}
+.mmi{
+	margin:20px auto;
+}
+.mmii{
+	margin:20px auto;
+}
+.myname{
+	font-size:60px;
+}
+}
