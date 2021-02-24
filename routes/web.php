@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
+
+use App\Models\Post;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,3 +35,16 @@ Route::get('/hobby', function () {
 Route::get('/logo', function () {
     return view('logo');
 })->name('logo');
+
+Route::get('post/add', function () {
+    DB::table('post')->insert([
+    'id'=>102,
+    'title'=>'Abylay',
+    'body'=>'boy'
+    ]);
+});
+
+Route::get('/post', function() {
+$post = DB::table('post')->get();
+return $post;
+});
