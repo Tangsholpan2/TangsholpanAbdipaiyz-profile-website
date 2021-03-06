@@ -11,5 +11,7 @@ class BlogController extends Controller
     //
     public function index(){
 
+    $blog = Post::all();
+    return view('blog.index')->with(['blog'=>$blog]);
     }
 }
