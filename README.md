@@ -31,4 +31,16 @@ Database
 
 ![image](https://user-images.githubusercontent.com/57478403/108931568-0ceadd00-7672-11eb-9e2c-2ce47640998b.png)
 
+LAB5 
 
+blog/index Route
+
+![image](https://user-images.githubusercontent.com/57478403/110194124-007c3680-7e61-11eb-8511-c34641503110.png)
+
+blog/create route
+
+![image](https://user-images.githubusercontent.com/57478403/110194162-446f3b80-7e61-11eb-828c-9f7ed38fd895.png)
+
+Check it from Post table
+
+![image](https://user-images.githubusercontent.com/57478403/110194176-59e46580-7e61-11eb-8b32-67691dc572e2.png)
