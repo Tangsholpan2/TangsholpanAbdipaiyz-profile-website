@@ -38,8 +38,8 @@ Route::get('/logo', function () {
 
 Route::get('post/add', function () {
     DB::table('post')->insert([
-    'id'=>102,
-    'title'=>'Abylay',
+    'id'=>105,
+    'title'=>'Abdipaiyz',
     'body'=>'boy'
     ]);
 });
