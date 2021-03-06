@@ -44,3 +44,8 @@ blog/create route
 Check it from Post table
 
 ![image](https://user-images.githubusercontent.com/57478403/110194176-59e46580-7e61-11eb-8b32-67691dc572e2.png)
+
+Change the style of form
+
+![image](https://user-images.githubusercontent.com/57478403/110194792-c0b74e00-7e64-11eb-98b5-5a7f1830b6bb.png)
+
