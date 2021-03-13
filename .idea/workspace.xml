@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="be5393a5-0a8e-4fa6-85b6-b30c380273f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/blog/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,18 +39,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1614132524418">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1615346017131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1614132524418" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615346017131" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1614829318598">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1614829318598" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1614996622479">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1615433967582">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1614996622479" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1615433967582" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1614829189708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

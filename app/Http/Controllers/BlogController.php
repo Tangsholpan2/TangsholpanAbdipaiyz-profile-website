@@ -15,6 +15,19 @@ class BlogController extends Controller
     return view('blog.index')->with(['blog'=>$blog]);
     }
     public function store(Request $request){
+
+        $this->validate($request,[
+        "id"=>"required",
+        "title"=>"required|min:3",
+        "body"=>"required"
+        ],[
+        "id.required"=>"ID should be filled",
+        "title.required"=>"title should be filled ",
+        "title.min"=>"title length should be than 3",
+        "body.required"=>"Body should be filled"
+        ]);
+
+
     Post::create([
     'id'=>$request->id,
     'title'=>$request->title,

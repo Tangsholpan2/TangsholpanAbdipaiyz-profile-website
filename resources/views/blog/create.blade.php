@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,6 +25,13 @@ padding:8px;
 margin:5px;
 font-size:25px;
 }
+ul{
+text-align:center;
+}
+li{
+font-size:18px;
+text-align:center;
+}
 button{
 font-family: 'Dancing Script', cursive;
 border-radius:20px;
@@ -32,16 +40,31 @@ padding:8px;
 margin:20px;
 font-size:25px;
 }
+.ah{
+text-align:center;
+}
 </style>
 <body>
 <div class="header"><h1>Welcome to our page!</h1></div>
 <form method="POST" action="{{route('add-post')}}">
 @csrf
 <div class="f">
+@if($errors->any())
+@foreach($errors->all() as $error)
+<div class="ah">
+<ul>
+<li>
+{{$error}}</br>
+</li>
+</ul>
+</div>
+@endforeach
+@endif
+
 <input type="text" name="id" placeholder="id"/></br>
 <input type="text" name="title" placeholder="title"/></br>
 <input type="text" name="body" placeholder="body"/></br>
-<button>Create</button>
+<button type="submit">Create</button>
 </div>
 </form>
 </body>
