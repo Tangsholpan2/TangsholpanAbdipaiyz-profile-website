@@ -14,6 +14,7 @@ class BlogController extends Controller
     $blog = Post::all();
     return view('blog.index')->with(['blog'=>$blog]);
     }
+
     public function store(Request $request){
 
         $this->validate($request,[
