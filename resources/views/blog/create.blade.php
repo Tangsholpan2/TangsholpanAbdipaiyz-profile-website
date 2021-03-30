@@ -62,8 +62,8 @@ text-align:center;
 @endif
 
 <input type="text" name="id" placeholder="id"/></br>
-<input type="text" name="title" placeholder="title"/></br>
-<input type="text" name="body" placeholder="body"/></br>
+<input type="text" name="title" placeholder="name"/></br>
+<input type="text" name="body" placeholder="surname"/></br>
 <button type="submit">Create</button>
 </div>
 </form>
