@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\DB;
 use App\Models\Post;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\UploadFileController;
-
+use App\Http\Controllers\EmailController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -64,3 +64,6 @@ Route::post('blog/create',[BlogController::class,'store'])->name('add-post');
 Route::get('post/{id}',[BlogController::class,'get_post']);
 
 Route::post('/uploadfile',[UploadFileController::class,'index']);
+
+Route::get('/email', [EmailController::class,'create']);
+Route::post('/email', [EmailController::class,'sendEmail'])->name('send.email');

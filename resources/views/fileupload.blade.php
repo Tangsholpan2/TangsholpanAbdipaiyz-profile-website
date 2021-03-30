@@ -15,6 +15,9 @@
 .container {
 margin-top:2%;
 }
+body{
+background:silver;
+}
 </style>
 </head>
 <body>
