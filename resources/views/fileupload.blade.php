@@ -49,7 +49,7 @@ margin-top:2%;
 <input type="text" name="email" class="form-control"  placeholder="Email" >
 
 </div>
-<label for="Product Name">Product photos (can attach more than one):</label>
+<label for="Product Name">Profile photo:</label>
 <br />
 <input type="file" class="form-control" name="photos" multiple />
 <br /><br />
