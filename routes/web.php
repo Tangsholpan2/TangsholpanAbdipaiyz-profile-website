@@ -7,6 +7,7 @@ use App\Models\Post;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\UploadFileController;
 use App\Http\Controllers\EmailController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -67,3 +68,7 @@ Route::post('/uploadfile',[UploadFileController::class,'index']);
 
 Route::get('/email', [EmailController::class,'create']);
 Route::post('/email', [EmailController::class,'sendEmail'])->name('send.email');
+
+Route::get('/mkm',function(){
+return view('welcome');
+});

@@ -62,6 +62,9 @@ body {
 .bs-example {
     margin: 20px;
 }
+body{
+background:silver;
+}
 </style>
 </head>
 <body>
@@ -69,7 +72,7 @@ body {
 	<div class="row">
 		<div class="col-md-8 mx-auto">
 			<div class="contact-form">
-				<h1>Get in Touch</h1>
+				<h1>Contact me</h1>
                 @if(session()->has('message'))
                     <div class="alert alert-success">
                         {{ session()->get('message') }}
